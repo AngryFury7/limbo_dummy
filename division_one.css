@@ -1,0 +1,10 @@
+.division_one
+{
+
+background-color:rgb(38, 38, 92);
+height: 600px;
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+}

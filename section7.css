@@ -1,0 +1,138 @@
+.one_main_two_three
+{
+    border-bottom-right-radius: 40px;
+    width:100%;
+    flex:1;
+    background-color:  rgb(23, 18, 39);
+    border-top:0.5px solid rgb(99, 75, 75);
+
+}
+
+
+
+.add_money_text
+{
+    display:flex;
+    flex-direction:column;
+    height:33px;
+    justify-content: center;
+}
+
+.add_money_text p 
+{
+margin-top:0px;
+margin-bottom:0px;
+color:red;
+font-family: Gluten;
+font-weight: bolder;
+margin-left:335px;
+cursor:default;
+
+}
+
+
+.addmoney
+{
+height:65px;
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content:center;
+}
+
+.addmoneyinput
+{
+    margin-left: 50px;
+    height:20px;
+    border-radius:4px;
+    padding:0px 0px 0px 2px;
+    border: 0px solid  rgb(23, 18, 39);
+    background-color:  rgb(255, 239, 184);
+}
+
+.addmoneyinput:focus{
+    outline:none;
+    border:none;
+    background-color: red;
+    color:white;
+    font-weight:bolder;
+}
+
+.addmoneyinput:focus::placeholder
+{
+color : red;
+
+}
+
+.addmoneyinput::placeholder
+{
+    color: rgb(120, 90, 60);
+}
+
+.addmoneybutton
+{
+    font-family:arial;
+    margin-right: 0px;;
+    margin-left:4px;
+    height:23px;
+    border-radius:11.5px;
+    background-color:goldenrod; /* Soft orange */
+color: black; /* Dark text for readability */
+box-shadow:0px 0px 0px black;
+outline :0px;
+font-weight: bolder;
+padding-left:14px;
+padding-right:14px;
+
+}
+
+.addmoneybutton:active
+{
+    background-color: green; /* Warm burnt orange */
+    color: white;
+        margin-right: 0px;;
+    margin-left:4px;
+    height:23px;
+    border-radius:11.5px;
+
+}
+
+.addmoneybutton:hover
+{
+cursor: pointer;
+}
+
+
+.reset_retry
+{
+    font-family:arial;
+    margin-right: 0px;;
+    margin-left:4px;
+    height:23px;
+    border-radius:11.5px;
+    background-color:goldenrod; /* Soft orange */
+color: black; /* Dark text for readability */
+box-shadow:0px 0px 0px black;
+outline :0px;
+font-weight: bolder;
+padding-left:14px;
+padding-right:14px;
+
+}
+
+.reset_retry:active
+{
+    background-color: green; /* Warm burnt orange */
+    color: white;
+        margin-right: 0px;;
+    margin-left:4px;
+    height:23px;
+    border-radius:11.5px;
+
+}
+
+.reset_retry:hover
+{
+    cursor: pointer;
+    
+}

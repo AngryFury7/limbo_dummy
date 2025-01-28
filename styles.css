@@ -1,0 +1,202 @@
+.division_one
+{
+
+background-color:rgb(38, 38, 92);
+ min-height: 600px;
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+border-bottom:2px solid white;
+
+
+}
+
+
+body{
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    background-color: rgb(112, 82, 82);
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.one_main
+{
+
+display:flex;
+flex-direction: row;
+border: 3px solid rgb(78, 67, 16);
+min-height:500px;
+ min-width:1300px;
+background-color: rgb(23, 18, 39);
+border-radius:40px;
+justify-content:center;
+
+}
+
+
+.one_main_two
+{
+display:flex;
+flex-direction:column;
+height:500px;
+flex:2;
+background-color:  rgb(23, 18, 39);
+border-top-right-radius:40px;
+border-bottom-right-radius: 40px;
+border-left:1px solid rgb(99, 75, 75);
+
+}
+
+.one_main_one
+{
+display:flex;
+flex-direction:column;
+height:500px;
+flex:1;
+background-color:  rgb(23, 18, 39);
+border-top-left-radius:40px;
+border-bottom-left-radius: 40px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------*/
+
+.blurred
+{
+
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    background-color: rgb(112, 82, 82);
+    filter: blur(3px);
+    pointer-events:none;
+ 
+}
+
+
+.pehli
+{
+
+height: 50px;
+width:100%;
+display:flex;
+justify-content: center;
+align-items: center;
+background-color:black;
+position:fixed;
+border-bottom: 1px solid white;
+
+
+}
+
+.satta
+{
+
+
+display:inline-block;
+margin:0 auto;
+font-size:12px;
+font-family : Playwrite IN;
+position:fixed;
+bottom:0px;
+left:0px;
+right:0px;
+background : linear-gradient(to right ,rgb(19, 19, 70),rgb(27, 9, 9),rgb(19,19,70));
+color:white;
+height:50px;
+display:flex;
+justify-content: center;;
+align-items: center;;
+
+
+
+}
+
+.satta button
+{
+
+height:40px;
+background-color: transparent;
+color:white;
+font-family:Playwrite IN;
+border:none;
+
+
+}
+
+
+.rules
+{
+
+min-height : 400px;
+min-width:900px;
+z-index:9999;
+position:fixed;
+top: 100px;
+right:615px;
+background-color: blue;
+left:615px;
+overflow-y:scroll;
+padding-left: 0px;
+padding-right: 0px;
+padding-top:0px;
+padding-bottom:0px;
+border-radius: 30px;
+filter : blur(5px);
+
+
+}
+
+.rules::-webkit-scrollbar
+{
+    width:10px;
+    border-radius: 5px;
+}
+
+.rules::-webkit-scrollbar-thumb{
+
+    background-color : black;
+    border-radius: 5px;;
+}
+
+.rules::-webkit-scrollbar-track{
+background: red;;
+border-radius:5px;
+
+}
+
+#rukes
+{
+
+height:90px;
+width:100%;
+z-index : 9999;
+background-color: white;
+
+
+}
+
+
+
+
+
+
+

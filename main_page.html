@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="section1.css">
+<link rel="stylesheet" href="section2.css">
+<link rel="stylesheet" href="section3.css">
+<link rel="stylesheet" href="section4.css">
+<link rel="stylesheet" href="section5.css">
+<link rel="stylesheet" href="section6.css">
+<link rel="stylesheet" href="section7.css">
+<link rel="stylesheet" href="division_one.css">
+
+
+
+
+</head>
+  <body >
+
+
+
+
+
+
+    <div class="satta">
+        <button>Angry_Fury</button>
+    </div>
+<div class="division_one">
+
+<div class="one_main">
+    <div class="one_main_one">
+
+<div class="one_main_one_one">
+<div class="bet_one">
+    <p> Set your bet amount in &#8377; </p>
+</div>
+<div class="bet_two">
+    <input type="text" placeholder="Enter amount Eg[89.81]" class="bet_text">
+    <button class="bet_set">Set</button>
+    <button class="bet_reset">Reset</button>
+</div>
+<p id="Error1">Amount yet to set</p>
+
+
+</div>
+<div class="one_main_one_two">
+<div class="multiply" >
+    <p>Set Multiplier</p>
+</div>
+<div class="multiply_two">
+    <input type="text" placeholder="Set here Eg[0.45]" class="multiplier_text">
+    <button class="multiplier_set" >Set</button>
+<button class="multiplier_reset">Reset</button>
+</div>
+<p id="Error2">Multiplier yet to set</p>
+
+</div>
+<div class="one_main_one_three">
+    <div class="set_level_text">
+        <p>set the dificulty level</p>
+    </div>
+    <div class="set_level">
+<select id="select_level" name="dificulty">
+    <option value="none" id="none">----</option>
+<option value="Easy" id="easy">  Easy</option>
+<option value="Moderate" id="moderate">  Moderate</option>
+<option value="Hard" id="hard">  Hard</option>
+</select>
+    </div>
+   <div id="display_level">
+    <p class="level">you chose : ----</p>
+   </div>
+</div>
+<div class="one_main_one_four">
+    <div class="place_bet">
+        
+        <button id="button3">Place Bet</button>
+    </div>
+    <p id="Error3">
+    </p>
+</div>
+
+    </div>
+
+
+<div class="one_main_two">
+    <div class="one_main_two_one">
+        <p class="wallet_p">Your current wallet balance is : &#8377;</p>
+    </div>
+    <div class="one_main_two_two">
+        <div class="hide">
+            <button>
+                CONTINUE
+            </button>
+        </div>
+        <div class="showmultiplier" >
+            <p class="showmultiplier_p">/<span class="p_span">&#10005;</span></p>
+    <br>
+    <p id="result">
+        <span class="Yeild">Yeild</span> / <span class="Forfeit">Forfeit</span> : ----&#8377;
+    </p>
+    <button class="continue"
+    style="
+    pointer-events:auto;
+    z-index : 9999;
+    "
+    >RESTART</button>
+        </div>
+    </div>
+    <div class="one_main_two_three">
+     <div class="add_money_text">
+        <p>Add money to wallet </p>
+     </div>  
+     <div class="addmoney">
+        <input type="text" placeholder="Type in amount Eg(98)" class="addmoneyinput">
+    <button class="addmoneybutton">Add</button> 
+    <button class="reset_retry">Retry/Reset</button>
+    </div> 
+    </div>
+
+</div>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="stored_values.js"></script>
+
+<script src="script.js"></script>
+<script src="set_one.js"></script>
+<script src="set_two.js"></script>
+<script src="level.js"></script>
+<script src="placebet.js"></script>
+<script src="add.js"></script>
+<script src="easy.js"></script>
+<script src="medium.js"></script>
+<script src="hard.js"></script>
+
+
+
+  </body>
+</html>

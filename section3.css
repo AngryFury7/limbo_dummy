@@ -1,0 +1,109 @@
+
+.one_main_one_three
+{
+    flex:2;
+    display: flex;
+    flex-direction:column;
+    background-color:  rgb(23, 18, 39);
+    border-top:0.5px solid rgb(99, 75, 75);
+    border-bottom:0.5px solid rgb(99, 75, 75);
+}
+
+
+
+.set_level_text{
+    height:32px;
+}
+
+.set_level_text p{
+
+    margin-right:10px;
+    margin-left:135px;
+    color:aqua;
+    font-family:Playwrite IN;
+    margin-bottom:0px;
+    margin-top:0px;
+    cursor:default;
+
+}
+
+.set_level{
+
+    height:133px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+#select_level
+{
+    background-color:  rgb(255, 239, 184);
+    color:black;
+    font-family:Permanent Marker;
+height:28px;
+margin-top:10px;
+width:100px;
+border:none;
+border-radius:14px;
+font-weight:bolder;
+
+
+}
+
+#select_level:focus
+{
+outline:none;
+border:none;
+
+}
+
+#select_level:hover{
+cursor:pointer;
+}
+
+
+.bet_set:hover
+{
+    cursor:pointer;
+}
+
+.multiplier_set:hover
+{
+    cursor:pointer;
+}
+
+#select_level:hover #easy,#hard,#moderate,#none
+{
+
+    background-color:black;
+    color:white;
+
+
+}
+
+#select_level:active #easy,#hard,#moderate,#none
+{
+
+    background-color:black;
+    color:white;
+
+
+}
+
+#display_level
+{
+    height:33px;
+}
+
+.level 
+{
+    margin-right:10px;
+    margin-left:135px;
+    color:aqua;
+    font-family:Playwrite IN;
+    margin-bottom:0px;
+    margin-top:0px;
+font-weight:bolder;
+cursor:default;
+
+}

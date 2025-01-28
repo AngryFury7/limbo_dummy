@@ -1,0 +1,173 @@
+.one_main_two_two
+{
+    width:100%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+    flex:3;
+    background-color:  rgb(23, 18, 39);
+border-top:0.5px solid rgb(99, 75, 75);
+border-bottom:0.5px solid rgb(99, 75, 75);
+position:relative;
+}
+
+
+
+.showmultiplier
+{
+    
+
+height:240px;
+width:766px;
+display:flex;
+flex-direction:column;
+align-items:center;
+border: 2px dotted whitesmoke;
+border-radius:40px;
+position: absolute;
+
+top:27.655px;
+left:48.855px;
+z-index:60;
+
+
+
+
+}
+
+.hide
+{
+    height:240px;
+width:766px;
+display:flex;
+flex-direction:column;
+align-items:center;
+border: 2px dotted whitesmoke;
+border-radius:40px;
+position: absolute;
+z-index: 0;
+top:27.655px;
+left:48.855px;
+
+}
+
+.showmultiplier_p
+{position:absolute;
+    display:inline-block;
+    font-family:arial;
+    margin:0px 0px 0px 0px;
+    color:gold;
+    font-size:60px;
+    top:40px;
+    left:332.04px;
+    cursor:default;
+
+
+}
+
+#loss
+{
+    font-family:arial;
+    margin:0px 0px 0px 0px;
+    color:red;
+    font-size:60px;
+    top:40px;
+    left:332.04px;
+    cursor:default;
+
+}
+
+
+.p_span
+{
+    display:inline-block;
+    font-family:arial;
+    margin:0px 0px 0px 0px;
+    color:lightpink;
+    font-size:35px;
+    font-weight:bolder;
+    cursor:default;
+
+
+}
+
+.p_span_loss
+{
+    display:inline-block;
+    font-family:arial;
+    margin:0px 0px 0px 0px;
+    color:red;
+    font-size:35px;
+    font-weight:bolder;
+    cursor:default;
+
+
+}
+
+#result
+{
+    position:absolute;
+    font-size:27px;
+    color:white;
+bottom:73px;
+margin:0px 0px 0px 0px;
+cursor:default;
+
+}
+
+.continue
+{
+position:absolute;
+bottom:30px;
+border:none;
+background-color:lightcoral;
+height: 30px;
+width:140px;
+box-shadow: 2px 2px 5px white;
+border-radius: 15px;
+
+
+
+
+
+}
+
+.continue:hover
+{
+
+cursor:pointer;
+
+}
+
+.Yeild
+{
+    font-size:27px;
+    color:yellow;
+margin:0px 0px 0px 0px;
+cursor:default;
+
+}
+
+.Forfeit
+{
+    font-size:27px;
+    color:red;
+margin:0px 0px 0px 0px;
+cursor:default;
+
+}
+
+.hide button{
+
+    position:absolute;
+    bottom:30px;
+    border:none;
+    background-color : lightcoral;
+    height: 30px;
+    width:140px;
+    box-shadow: 2px 2px 5px white;
+    border-radius: 15px;
+    cursor:not-allowed;
+
+}

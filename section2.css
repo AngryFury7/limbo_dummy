@@ -1,0 +1,138 @@
+.one_main_one_two
+{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    background-color:  rgb(23, 18, 39);
+border-top:0.5px solid rgb(99, 75, 75);
+border-bottom:0.5px solid rgb(99, 75, 75);
+}
+
+.multiply {
+
+    height:33px;
+}
+
+.multiply p 
+{
+    margin-right:10px;
+    margin-left:160px;
+    color:aqua;
+    font-family:Playwrite IN;
+    margin-bottom:0px;
+    margin-top:0px;
+    cursor:default;
+     
+}
+
+.multiply_two
+{
+    background-color:  rgb(23, 18, 39);
+    height:33px;
+    display:flex;
+    flex-direction: rows;
+    align-items:center;
+    justify-content:center;
+
+}
+
+
+.multiplier_text
+{
+
+margin-left: 50px;
+height:20px;
+border-radius:4px;
+padding:0px 0px 0px 2px;
+border: 0px solid  rgb(23, 18, 39);
+background-color:  rgb(255, 239, 184);
+
+}
+
+.multiplier_text::placeholder
+{
+    color: rgb(120, 90, 60);
+}
+
+.multiplier_text:focus 
+{
+border-bottom-width:0px;
+border-top-width:0px;
+border-right-width: 0px;
+border-left-width:0px;
+    outline:none;
+
+}
+
+.multiplier_text:focus::placeholder
+{
+color : rgb(255, 239, 184);
+
+}
+
+.multiplier_set
+{
+     font-family:arial;
+    margin-right: 0px;;
+    margin-left:4px;
+    height:23px;
+    border-radius:11.5px;
+    background-color: rgb(255, 178, 102); /* Soft orange */
+color: rgb(23, 18, 39); /* Dark text for readability */
+box-shadow:0px 0px 0px black;
+outline :0px;
+}
+
+.multiplier_set:active
+{
+    background-color: rgb(230, 145, 80); /* Warm burnt orange */
+color: rgb(23, 18, 39);
+    margin-right: 0px;;
+margin-left:4px;
+height:23px;
+border-radius:11.5px;
+}
+
+
+
+#Error2 
+{
+    font-family: Permanent Marker;
+    color:aqua;
+    
+    margin-left: 140px;
+    margin-top:4px;
+    margin-bottom:-1px;
+    display:inline-block;
+    cursor:default;
+     
+}
+
+
+.multiplier_reset
+{
+     font-family:arial;
+    margin-right: 0px;;
+    margin-left:4px;
+    height:23px;
+    border-radius:11.5px;
+    background-color: rgb(255, 178, 102); /* Soft orange */
+color: rgb(23, 18, 39); /* Dark text for readability */
+box-shadow:0px 0px 0px black;
+outline :0px;
+}
+
+.multiplier_reset:active
+{
+    background-color: rgb(230, 145, 80); /* Warm burnt orange */
+color: rgb(23, 18, 39);
+    margin-right: 0px;;
+margin-left:4px;
+height:23px;
+border-radius:11.5px;
+}
+
+.multiplier_reset:hover
+{
+cursor: pointer;
+}

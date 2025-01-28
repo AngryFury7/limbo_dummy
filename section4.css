@@ -1,0 +1,59 @@
+.one_main_one_four
+{
+    flex:1;
+    background-color:  rgb(23, 18, 39);
+ border-bottom-left-radius: 40px;
+ border-top:0.5px solid rgb(99, 75, 75);
+}
+
+
+.place_bet
+{
+height:33px;
+display:flex;
+flex-direction: row;
+justify-content:center;
+align-items:center;
+}
+
+#button3{
+
+padding-top:5px;
+padding-bottom:5px;
+padding-right:15px;
+padding-left:15px;
+
+font-family:Roboto;
+font-weight:900;
+background-color:rgb(161, 236, 48);
+border:none;
+border-radius:12.5px;
+
+color:black;
+
+}
+
+#button3:active{
+
+    background-color:rgb(95, 102, 167);
+color:aqua;
+
+}
+
+#button3:hover{
+    cursor:pointer;
+}
+
+
+#Error3
+{
+    font-family: Permanent Marker;
+    color:aqua;
+    margin-left: 10px;
+    margin-top:4px;
+    margin-bottom:0px;
+    display:inline-block;
+    cursor:default;
+
+     
+}
